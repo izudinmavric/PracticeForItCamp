@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="kontakt_forma">
+        
+
+        <form class="form" onchange="setName(this)">
+            <br>
+              <label for="name" class="label">Ime i prezime</label>
+              <br>
+              
+              <input  id="name" class="input" type="text" placeholder="Unesite vase ime" required>
+             
+  
+              <br>
+                 <label for="email" class="label">Email</label>
+                <br>
+                 <input id="email" class="input" type="email" placeholder="Unesite vas email" required>
+
+                 <br>
+            <label for="message" class="label">Poruka</label>
+            <br>
+            <textarea class="input" name="" id="input" cols="30" rows="10"></textarea>
+
+            <!-- <div class="btn"> -->
+                <button class="btn" onclick="send()">Posalji</button>
+
+                <h1 id="PrintName"></h1>
+            <!-- <a href="#" class="btn">
+                Posalji
+            </a>  -->
+
+    <!-- </div>/ -->
+    
+
+    <script>
+        function setName(val) {
+            console.log(val);
+            
+            document.getElementById("PrintName").innerHTML = val;
+
+        }
+
+
+
+
+
+    </script>
+
+</body>
+</html>

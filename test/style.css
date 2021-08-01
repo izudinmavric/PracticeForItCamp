@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.main_section {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  text-align: center;
+  height: 89vh;
+}
+
+.nav,
+.content,
+.sidebar {
+  border: 1px solid black;
+}
+
+.main_section .nav {
+  width: 20%;
+}
+
+.main_section .content {
+  width: 55%;
+}
+
+.main_section .sidebar {
+  width: 25%;
+}
+
+.footer {
+  text-align: center;
+  border: 1px solid black;
+}

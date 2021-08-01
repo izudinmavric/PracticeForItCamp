@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.tabs {
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  transition: 0.3s;
+}
+
+.tavs_nav {
+  border: 1px solid black;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+  background-color: gray;
+}
+
+li:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.tab1,
+.tab2,
+.tab3 {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+}
