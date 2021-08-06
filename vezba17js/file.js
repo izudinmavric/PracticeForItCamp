@@ -31,73 +31,75 @@
 // console.log(max(10,43,54);
 
 
-function counter(string){  
-    let counter = 0;
+// function counter(string){  
+//     let counter = 0;
 
-    for(var i = 0; i<string.length; i++){
-        if(string[i] === 'a' || string[i] === 'i' || string[i] === 'o' || string[i] === 'e' || string[i] === 'u'){
-            counter ++;
-        }
-    }
+//     for(var i = 0; i<string.length; i++){
+//         if(string[i] === 'a' || string[i] === 'i' || string[i] === 'o' || string[i] === 'e' || string[i] === 'u'){
+//             counter ++;
+//         }
+//     }
 
-    return counter;
+//     return counter;
 
-}
+// }
 
-function maxCounter (str1, str2, str3, str4, str5){
-
-
-    var result = str1;
-    var max = counter(str1)
-    var array = [str2,str3,str4,str5];
-    for(var i= 0; i<array.length;i++){
-
-        if (counter(array[i] > max)){
-            max = counter[array[i]]
-            result = array[i];
-
-        }
-
-    }
+// function maxCounter (str1, str2, str3, str4, str5){
 
 
-    // var str1c = counter(str1);
-    // var str2c = counter(str2);
-    // var str3c = counter(str3);
-    // var str4c = counter(str4);
-    // var str5c = counter(str5);
+//     var result = str1;
+//     var max = counter(str1)
+//     var array = [str2,str3,str4,str5];
+//     for(var i= 0; i<array.length;i++){
 
-    // var max = str1c;
-    // var result = str1;
+//         if (counter(array[i] > max)){
+//             max = counter[array[i]]
+//             result = array[i];
 
-    //     if(max<str2c){
-    //         max = str2c;
-    //         result = str2;
-    //     }
+//         }
 
-    //     if(max<str3c){
-    //         max = str3c;
-    //         result = str3;
-    //     }
-
-    //     if(max<str4c){
-    //         max = str4c;
-    //         result = str4;
-
-    //     }
-
-    //     if(max<str5c){
-    //         max = str5c;
-    //         result = str5;
-
-    //     }
-
-        return result;
-
-}
+//     }
 
 
+//     // var str1c = counter(str1);
+//     // var str2c = counter(str2);
+//     // var str3c = counter(str3);
+//     // var str4c = counter(str4);
+//     // var str5c = counter(str5);
 
-console.log(maxCounter("Gdgdfgfggfdg", "sdassaffdfs","fdsfdagafddfgfdfdgd","fgdaggfadgfdagadfg","gfdgadfgfgdag"));
+//     // var max = str1c;
+//     // var result = str1;
+
+//     //     if(max<str2c){
+//     //         max = str2c;
+//     //         result = str2;
+//     //     }
+
+//     //     if(max<str3c){
+//     //         max = str3c;
+//     //         result = str3;
+//     //     }
+
+//     //     if(max<str4c){
+//     //         max = str4c;
+//     //         result = str4;
+
+//     //     }
+
+//     //     if(max<str5c){
+//     //         max = str5c;
+//     //         result = str5;
+
+//     //     }
+
+//         return result;
+
+// }
+
+
+
+// console.log(maxCounter("Gdgdfgfggfdg", "sdassaffdfs","fdsfdagafddfgfdfdgd","fgdaggfadgfdagadfg","gfdgadfgfgdag"));
+
+
 
 
